@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- jQuery y Bootstrap 3 -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+
+  <!-- Fuente opcional -->
+  <link href="https://fonts.cdnfonts.com/css/schnoerkel-caps" rel="stylesheet">
+  
+  <title>Sherlyn Alegria</title>
+
+  <style>
+    :root {
+      --columbia-blue: #c1cfdaff;
+      --baby-blue: #92c1dfff;
+      --picton-blue: rgba(98, 178, 228, 0.548);
+      --celestial-blue: rgba(32, 166, 243, 0.507);
+      --vivid-sky-blue: #3dceeeff;
+      --fluorescent-cyan: #59f8e8ff;
+      --tiffany-blue: #A0E7E5;
+      --salmon: #7aff90;
+      --yinmn-blue: #882e90;
+    }
+
+    body {
+      background-color: var(--baby-blue);
+    }
+
+    .gantz-text {
+      text-align: center;
+    }
+
+    .gantz-text h1,
+    .gantz-text h3,
+    .gantz-text p {
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: 60px;
+      font-weight: bold;
+      background: url("Eren.jpeg") no-repeat center center;
+      background-size: cover;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      color: transparent;
+    }
+
+    /* Mejora visual del navbar */
+    .navbar {
+      background-color: var(--salmon);
+    }
+
+    .navbar-brand {
+      background-color: var(--tiffany-blue);
+      padding: 10px;
+    }
+
+    .nav-link {
+      color: var(--tiffany-blue);
+    }
+
+    .dropdown-menu {
+      background-color: var(--columbia-blue);
+      padding: 10px;
+    }
+
+    .dropdown-item {
+      color: black;
+      display: block;
+      padding: 5px 10px;
+    }
+
+    .dropdown-item:hover {
+      background-color: var(--vivid-sky-blue);
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-light">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Inicio</a>
+
+      <div class="collapse navbar-collapse" id="navbarnavDropdown">
+        <ul class="nav navbar-nav">
+          <!-- Unidad 1 -->
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Unidad 1 <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Conceptos</a></li>
+              <li><a class="dropdown-item" href="#">Ataques</a></li>
+              <li><a class="dropdown-item" href="#">Protección</a></li>
+            </ul>
+          </li>
+
+          <!-- Unidad 2 -->
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Unidad 2 <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Conceptos</a></li>
+              <li><a class="dropdown-item" href="#">Ataques</a></li>
+              <li><a class="dropdown-item" href="#">Protección</a></li>
+            </ul>
+          </li>
+
+          <!-- Unidad 3 -->
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Unidad 3 <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Conceptos</a></li>
+              <li><a class="dropdown-item" href="#">Ataques</a></li>
+              <li><a class="dropdown-item" href="#">Protección</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Jumbotron -->
+  <div class="jumbotron" style="background-color: var(--picton-blue);">
+    <div class="gantz-text">
+      <h1>Sherlyn Alegría</h1>
+      <h3>Programación 5TOA</h3>
+      <p>CONSTRUYE PÁGINAS WEB</p>
+    </div>
+  </div>
+
+</body>
+</html>
